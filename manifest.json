@@ -4,9 +4,9 @@
   "description": "",
   "version": "1.0",
   "content_scripts": [{
-    "matches": ["http://*.backlog.jp/*", "https://*.backlog.jp/*" ],
-    "js": ["content_scripts.js", "highlight/highlight.pack.js"],
-    "css": ["content_scripts.css", "highlight/styles/github.css"]
+    "matches": ["https://*.backlog.jp/*/pullRequests/*"],
+    "js": ["dist/bundle.js"],
+    "css": ["content_scripts.css", "node_modules/highlight.js/styles/tomorrow.css"]
   }],
   "permissions": [
     "tabs",

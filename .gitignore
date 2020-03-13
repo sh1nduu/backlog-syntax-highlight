@@ -1,2 +1,4 @@
 /node_modules
 /highlight
+/dist
+.DS_Store
